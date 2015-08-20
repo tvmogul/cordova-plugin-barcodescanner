@@ -1,0 +1,19 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+ 
+    <style name="CustomActionBarTheme" parent="android:style/Theme.Holo">
+        <item name="android:actionBarStyle">@style/myActionBarTheme</item>
+        <item name="android:divider">@color/contents_text</item>
+    </style>
+ 
+    <style name="myActionBarTheme" parent="android:style/Widget.Holo.ActionBar">
+        <item name="android:background">@drawable/barcode_bar_bg</item>
+        <item name="android:titleTextStyle">@style/myActionBarTitleTextStyle</item>
+        <item name="android:alpha">1.0</item>
+    </style>
+     <style name="myActionBarTitleTextStyle" parent="android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+</resources>
+
+

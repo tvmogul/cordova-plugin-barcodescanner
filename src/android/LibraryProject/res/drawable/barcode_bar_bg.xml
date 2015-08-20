@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+			<gradient android:angle="90" 
+		  		android:startColor="#28343b"
+				android:centerColor="#828c95"
+				android:endColor="#28343b"
+				android:height="1px" />
+        </shape>
+        </item>
+</selector>
+
+
+<!-- Dark Red
+<gradient android:angle="90" 
+   	android:startColor="#6d0019"
+ 		android:centerColor="#8f0222"
+ 		android:endColor="#a90329"
+ 		android:height="1px" /> -->
+			
+<!-- Gray
+<gradient android:angle="90" 
+   	android:startColor="#28343b"
+ 		android:centerColor="#828c95"
+ 		android:endColor="#b5bdc8"
+ 		android:height="1px" /> -->
+ 		
+
+<!-- android:startColor="#28343b"
+android:centerColor="#828c95"
+android:endColor="#b5bdc8" -->
